@@ -1,0 +1,16 @@
+
+{% extends 'layouts/base.html.twig' %}
+
+{% block title %}
+new Article
+{% endblock %}
+
+{% block body %}
+    <div class ="row">
+        <div class="col-md-6 mx-auto">
+    
+            <h1> Upload an article to donate </h1>
+            {{include('pins/_form.html.twig', {'submitButtonText':'share to give'})}}
+        </div>
+    </div>
+{% endblock %}			
